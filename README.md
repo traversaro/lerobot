@@ -88,12 +88,10 @@
 <table>
   <tr>
     <td><img src="https://raw.githubusercontent.com/huggingface/lerobot/main/media/gym/aloha_act.gif" width="100%" alt="ACT policy on ALOHA env"/></td>
-    <td><img src="https://raw.githubusercontent.com/huggingface/lerobot/main/media/gym/simxarm_tdmpc.gif" width="100%" alt="TDMPC policy on SimXArm env"/></td>
     <td><img src="https://raw.githubusercontent.com/huggingface/lerobot/main/media/gym/pusht_diffusion.gif" width="100%" alt="Diffusion policy on PushT env"/></td>
   </tr>
   <tr>
     <td align="center">ACT policy on ALOHA env</td>
-    <td align="center">TDMPC policy on SimXArm env</td>
     <td align="center">Diffusion policy on PushT env</td>
   </tr>
 </table>
@@ -150,7 +148,6 @@ pip install -e .
 For simulations, 🤗 LeRobot comes with gymnasium environments that can be installed as extras:
 
 - [aloha](https://github.com/huggingface/gym-aloha)
-- [xarm](https://github.com/huggingface/gym-xarm)
 - [pusht](https://github.com/huggingface/gym-pusht)
 
 For instance, to install 🤗 LeRobot with aloha and pusht, use:
